@@ -26,7 +26,7 @@ export default function Home() {
               <Link href="/products" className="rounded-md border border-white/40 px-6 py-3 font-semibold hover:bg-white/10">Browse products</Link>
             </div>
           </div>
-          <Photo name="hero" alt={`${site.name} shop`} className="aspect-[4/3] w-full rounded-2xl" fallback={circuit} />
+          <Photo name="hero" alt={`${site.name} shop`} className="aspect-video w-full rounded-2xl shadow-2xl" fallback={circuit} />
         </div>
       </section>
 
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {site.categories.map((c) => (
             <Link key={c.name} href="/products" className="group overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-ink/10 transition hover:shadow-md">
-              <Photo name={c.photo} alt={c.name} label={c.name} className="h-44 w-full" />
+              <Photo name={c.photo} alt={c.name} label={c.name} className="aspect-[5/2] w-full object-right" />
               <div className="p-5">
                 <h3 className="text-lg font-bold">{c.name}</h3>
                 <p className="mt-1 text-sm text-ink/70">{c.text}</p>

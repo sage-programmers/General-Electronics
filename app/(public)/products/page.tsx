@@ -10,7 +10,7 @@ export default function Products() {
       <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {site.categories.map((c) => (
           <div key={c.name} className="overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-ink/10">
-            <Photo name={c.photo} alt={c.name} label={c.name} className="h-48 w-full" />
+            <Photo name={c.photo} alt={c.name} label={c.name} className="aspect-[5/2] w-full object-right" />
             <div className="p-5">
               <h2 className="text-lg font-bold">{c.name}</h2>
               <p className="mt-1 text-sm text-ink/70">{c.text}</p>

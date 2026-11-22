@@ -1,8 +1,8 @@
 // EDIT THIS FILE to personalise the whole website.
 export const site = {
-  name: 'Your Shop Name',
-  tagline: 'Genuine electronics. Honest prices. Repairs done right.',
-  intro: 'Phones, TVs, computers, solar and more, with a warranty on everything we sell.',
+  name: 'Premier Electronics',
+  tagline: 'Shop Smart. Live Better.',
+  intro: 'Phones, televisions, computers, solar power and professional repairs, all under one roof.',
   phone: '+254 700 000 000',
   whatsapp: '254700000000', // digits only, with country code, no + sign
   email: 'info@example.com',
@@ -12,16 +12,16 @@ export const site = {
   socials: { Facebook: '#', Instagram: '#', TikTok: '#' },
   trust: [
     { title: 'Genuine products', text: 'Sourced from trusted suppliers' },
-    { title: 'Warranty included', text: 'On every item we sell' },
-    { title: 'Same-day repairs', text: 'For most phones and TVs' },
-    { title: 'Walk in anytime', text: 'Mon–Sat, right in town' },
+    { title: 'Expert support', text: 'Advice and help after you buy' },
+    { title: 'Great prices', text: 'Fair pricing with a receipt every time' },
+    { title: 'Trusted partner', text: 'Retail, repairs and wholesale' },
   ],
   // Photo names: put a file called e.g. phones.jpg in /public/images and it appears automatically.
   categories: [
     { name: 'Phones & Tablets', photo: 'phones', text: 'New handsets, chargers, cases and screen guards.' },
-    { name: 'TVs & Audio', photo: 'tvs', text: 'Televisions, home theatre, speakers and decoders.' },
+    { name: 'Televisions', photo: 'tvs', text: 'Smart TVs, home theatre, speakers and decoders.' },
     { name: 'Computers', photo: 'computers', text: 'Laptops, printers, storage and networking.' },
-    { name: 'Power & Lighting', photo: 'power', text: 'Solar kits, inverters, batteries, bulbs and cables.' },
+    { name: 'Solar Power', photo: 'power', text: 'Solar panels, inverters, batteries and clean backup power.' },
     { name: 'Repairs', photo: 'repairs', text: 'Diagnosis and repair for phones, TVs and small appliances.' },
     { name: 'Wholesale & Supply', photo: 'wholesale', text: 'Bulk orders for resellers, schools and offices.' },
   ],

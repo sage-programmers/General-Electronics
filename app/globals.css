@@ -1,10 +1,10 @@
 @import "tailwindcss";
 @theme {
-  --color-ink: #14232b;
-  --color-paper: #f4f6f5;
-  --color-volt: #00a58e;
-  --color-volt-dark: #007f6d;
-  --color-amber: #f5a300;
+  --color-ink: #0b1f5b;
+  --color-paper: #f3f6fc;
+  --color-volt: #1d4fd8;
+  --color-volt-dark: #1538a8;
+  --color-amber: #ffd100;
 }
 html { scroll-behavior: smooth; }
 body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif; }
