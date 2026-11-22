@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --color-ink: #14232b;
+  --color-paper: #f4f6f5;
+  --color-volt: #00a58e;
+  --color-volt-dark: #007f6d;
+  --color-amber: #f5a300;
+}
+body { background: var(--color-paper); color: var(--color-ink); font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif; }
+:focus-visible { outline: 3px solid var(--color-amber); outline-offset: 2px; }
