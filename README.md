@@ -1,3 +1,4 @@
+
 # Electronics Shop Website
 
 Next.js + Tailwind, hosted on Vercel, database and admin login on Supabase.
