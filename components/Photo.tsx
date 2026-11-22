@@ -5,7 +5,7 @@ import path from 'path'
 export default function Photo({ name, alt, className = '', label, fallback }: {
   name: string; alt: string; className?: string; label?: string; fallback?: React.ReactNode
 }) {
-  const ext = ['jpg', 'jpeg', 'png', 'webp'].find((e) =>
+  const ext = ['jpg', 'jpeg', 'png', 'webp', 'svg'].find((e) =>
     fs.existsSync(path.join(process.cwd(), 'public', 'images', `${name}.${e}`)))
   if (ext) return <img src={`/images/${name}.${ext}`} alt={alt} loading="lazy" className={`object-cover ${className}`} />
   return (
