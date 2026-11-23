@@ -1,1 +1,1 @@
-const nextConfig = {}; export default nextConfig;
+const nextConfig = { serverExternalPackages: ['@react-pdf/renderer'] }; export default nextConfig;

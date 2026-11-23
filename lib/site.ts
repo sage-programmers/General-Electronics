@@ -4,6 +4,7 @@ export const site = {
   tagline: 'Shop Smart. Live Better.',
   intro: 'Phones, televisions, computers, solar power and professional repairs, all under one roof.',
   phone: '+254 700 000 000',
+  kraPin: '', // shown on quotes and receipts if filled, e.g. 'P051234567X'
   whatsapp: '254700000000', // digits only, with country code, no + sign
   email: 'info@example.com',
   address: 'Main Street, Kisii, Kenya',
